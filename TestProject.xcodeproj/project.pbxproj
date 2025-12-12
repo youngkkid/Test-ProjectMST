@@ -6,30 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8401AB642EECB31C00794BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8401AB5B2EECB31C00794BC0 /* Assets.xcassets */; };
+		8401AB662EECB31C00794BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401AB5E2EECB31C00794BC0 /* LaunchScreen.storyboard */; };
+		8401AB682EECB31C00794BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401AB5A2EECB31C00794BC0 /* AppDelegate.swift */; };
+		8401AB692EECB31C00794BC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401AB612EECB31C00794BC0 /* SceneDelegate.swift */; };
+		8401AB6A2EECB31C00794BC0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401AB622EECB31C00794BC0 /* MainViewController.swift */; };
+		8401AB6C2EECB3AC00794BC0 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401AB6B2EECB3AC00794BC0 /* OnboardingViewController.swift */; };
+		8401AB6E2EECB3EA00794BC0 /* PaywallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401AB6D2EECB3EA00794BC0 /* PaywallViewController.swift */; };
+		8401AB702EECB41400794BC0 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401AB6F2EECB41400794BC0 /* UserDefaultsKeys.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8401AB422EECB31600794BC0 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8401AB5A2EECB31C00794BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8401AB5B2EECB31C00794BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8401AB5C2EECB31C00794BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8401AB5D2EECB31C00794BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8401AB612EECB31C00794BC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8401AB622EECB31C00794BC0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8401AB6B2EECB3AC00794BC0 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		8401AB6D2EECB3EA00794BC0 /* PaywallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallViewController.swift; sourceTree = "<group>"; };
+		8401AB6F2EECB41400794BC0 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8401AB542EECB31700794BC0 /* Exceptions for "TestProject" folder in "TestProject" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 8401AB412EECB31600794BC0 /* TestProject */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8401AB442EECB31600794BC0 /* TestProject */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8401AB542EECB31700794BC0 /* Exceptions for "TestProject" folder in "TestProject" target */,
-			);
-			path = TestProject;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8401AB3F2EECB31600794BC0 /* Frameworks */ = {
@@ -45,7 +44,7 @@
 		8401AB392EECB31600794BC0 = {
 			isa = PBXGroup;
 			children = (
-				8401AB442EECB31600794BC0 /* TestProject */,
+				8401AB632EECB31C00794BC0 /* TestProject */,
 				8401AB432EECB31600794BC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +55,22 @@
 				8401AB422EECB31600794BC0 /* TestProject.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8401AB632EECB31C00794BC0 /* TestProject */ = {
+			isa = PBXGroup;
+			children = (
+				8401AB6F2EECB41400794BC0 /* UserDefaultsKeys.swift */,
+				8401AB6B2EECB3AC00794BC0 /* OnboardingViewController.swift */,
+				8401AB6D2EECB3EA00794BC0 /* PaywallViewController.swift */,
+				8401AB622EECB31C00794BC0 /* MainViewController.swift */,
+				8401AB5A2EECB31C00794BC0 /* AppDelegate.swift */,
+				8401AB612EECB31C00794BC0 /* SceneDelegate.swift */,
+				8401AB5B2EECB31C00794BC0 /* Assets.xcassets */,
+				8401AB5C2EECB31C00794BC0 /* Info.plist */,
+				8401AB5E2EECB31C00794BC0 /* LaunchScreen.storyboard */,
+			);
+			path = TestProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +87,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8401AB442EECB31600794BC0 /* TestProject */,
 			);
 			name = TestProject;
 			packageProductDependencies = (
@@ -122,6 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8401AB642EECB31C00794BC0 /* Assets.xcassets in Resources */,
+				8401AB662EECB31C00794BC0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +146,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8401AB682EECB31C00794BC0 /* AppDelegate.swift in Sources */,
+				8401AB692EECB31C00794BC0 /* SceneDelegate.swift in Sources */,
+				8401AB6A2EECB31C00794BC0 /* MainViewController.swift in Sources */,
+				8401AB6C2EECB3AC00794BC0 /* OnboardingViewController.swift in Sources */,
+				8401AB702EECB41400794BC0 /* UserDefaultsKeys.swift in Sources */,
+				8401AB6E2EECB3EA00794BC0 /* PaywallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8401AB5E2EECB31C00794BC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8401AB5D2EECB31C00794BC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8401AB562EECB31700794BC0 /* Debug */ = {
@@ -150,8 +181,6 @@
 				INFOPLIST_FILE = TestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -178,8 +207,6 @@
 				INFOPLIST_FILE = TestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
